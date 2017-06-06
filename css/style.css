@@ -1,0 +1,246 @@
+*{
+padding:0;
+margin:0;
+}
+a img{ 
+border: none;
+}
+
+/* стили для текста и заголовка  */
+
+h1{
+font:bold 24px Tahoma;
+color: #444;
+text-align: center;
+}
+
+#text p{
+font: 16px Tahoma;
+color: #444;
+padding: 10px 0;
+}
+/* Стили для модулей в сайдбаре */
+
+.contact, .social{
+width:260px;
+height:auto;
+margin: 0 0px 20px 0;
+border: 1px solid #999;
+border-radius: 5px;
+background: url('../IMG/fon.png');
+float:right;
+padding: 25px 0 0 10px
+
+
+}
+
+.contact h3, .social h3{
+font: bold 18px Tahoma;
+color: #E52B50;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+
+
+
+/* Maket */
+
+#page{
+width: 100%;
+height: auto;
+background: #b0ab15;
+}
+
+#layout{
+width:920px;
+height:auto;
+margin: 0 auto 30px auto;
+}
+
+#header{
+width:100%;
+height:auto;
+}
+#header a{
+font-size: 0;
+}
+
+#header p{
+font: 18px verdana;
+float:right;
+text-align:right;
+Color:#fff;
+padding-top:50px;
+}
+#header p span{
+font-size:24px;
+color:#ddd;
+}
+
+#menu{
+width:100%;
+height:55px;
+margin-bottom:7px;
+border-radius:5px;
+/* Градиент */
+background: #1fdd8a; /* Для старых браузров */
+background: linear-gradient(to top, #1fdd8a, #11ff1c);
+overflow:hidden;
+}
+
+#menu li{
+float: left;
+list-style:none;
+padding:16px 70px 0 20px;
+}
+
+#menu li a{
+font:18px Tahoma;
+Color:#ff4911;
+text-transform:uppercase;
+text-decoration:none;
+}
+#menu li a:hover, a.current{
+text-shadow:0 1px 4px #666;
+text-decoration: underline;
+}
+
+
+#content{
+width:920px;
+height:auto;
+background:#ffffff;
+overflow:hidden;
+border-radius:5px 5px 0 0;
+}
+
+#pic{
+width:100%;
+height:auto;
+margin: 0 0 25px 0;
+overflow:hidden;
+border-bottom:1px solid #444;
+padding: 0 0 25px 0;
+
+}
+
+#pic img{
+float: left;
+}
+
+#pic ul{
+padding: 50px 0 25px 0
+}
+
+#pic ul li{
+font:24px Tahoma;
+color:#333;
+padding:3px 0;
+list-style: none;
+}
+
+.button{
+text-align: center;
+padding: 5px 15px;
+font: 20px Tahoma;
+color: #ff4911;
+background:#42d949;
+border-radius:5px;
+border:1px solid #d2d2d2;
+box-shadow:0 1px 3px #b1b2b2;
+text-decoration:none;
+}
+
+#text{
+width:600px;
+height:auto;
+float:left;
+margin: 0 0 50px 0;
+padding: 25px 10px 0 20px;
+}
+#text2{
+width:auto;
+height:auto;
+float:left;
+margin: 0 0 50px 0;
+padding: 25px 10px 0 20px;
+}
+
+
+
+
+#sidebar{
+width:260px;
+height:auto;
+float:right;
+}
+
+#footer{
+width:100%;
+height:150px;
+background:#222;
+border-radius: 0 0 5px 5px;
+}
+
+
+#footer ul{
+padding: 10px 20px;
+}
+
+#footer ul li {
+float: left;
+list-style:none;
+padding: 0 30px 0 0;
+}
+#footer ul li a {
+font: 16px Tahoma;
+color:#E52B50;
+}
+#footer p{
+font: 16px Tahoma;
+color:#E52B50;
+text-align: center;
+}
+
+.form {
+width:470px;
+margin: 0 auto;
+border: 1px solid #ddd;
+padding: 15px ;
+font: 16px Tahoma;
+text-align:center;
+}
+.form ul li{
+list-style:none;
+padding: 5px 0;
+}
+.form span{
+color: #E52B50;
+font: 16px Tahoma;
+}
+
+.zakaz{
+font: 24px Tahoma;
+color:#E52B50;
+text-align:center;
+}
+
+#gallery{
+padding: 5px 5px 10px 8px;
+
+
+}
+#vid{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+
+}
+
+#pasur{
+padding: 25px;
+
+}
